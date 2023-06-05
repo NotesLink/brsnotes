@@ -7,7 +7,7 @@
     scrollbar-width: 0;
 }
 
-*::-webkit-scrollbar{
+*::-webkit-scrollbar {
     width: 0;
 }
 
@@ -31,18 +31,36 @@ a {
     overflow-y: scroll;
 }
 
+#search-box {
+    height: 4em;
+    padding: 1em;
+    width: 100%;
+    background-color: #eee;
+    display: flex;
+    position: sticky;
+    top: 5em;
+    overflow-y: scroll;
+    border: none;
+    border-radius: 1em;
+}
+
 .top-bar>img {
     margin: .5em;
+    padding: 0;
     height: 3em;
     border-radius: .5em;
 }
 
 .top-bar>* {
     margin: .5em;
+    border-radius: .5em;
+    border: none;
+    padding: .5em;
 }
 
 .top-bar>div {
     line-height: 3em;
+    padding: 0;
     font-weight: bold;
 }
 

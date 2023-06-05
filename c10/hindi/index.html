@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/brs.png">
+    <link rel="stylesheet" href="/floater.css">
+    <title>BRS Notes - Class 10</title>
+    <script>
+        notesURL = 'https://api.github.com/repositories/649284030/contents/comp';
+        listElemID = 'file-list'
+    </script>
+    <script src="/fetch-ls.js"></script>
+    <script src="/search-box.js"></script>
+</head>
+
+<body onload="fetchList()">
+    <div class="top-bar">
+        <img src="/brs.png">
+        <div>BRS Notes - Class 10</div>
+    </div>
+    <input onchange="search(this.value || '')" placeholder="Search..." id="search-box" width="100%">
+    <div class="web">
+        <div class="nitro-ui-alist" id="file-list"></div>
+    </div>
+</body>
+
+</html>
