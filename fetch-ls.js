@@ -1,3 +1,5 @@
+const notesPrefix = "https://noteslink.github.io/notes10/"
+
 fetchList = async () => {
     let list = document.getElementById(listElemID);
     let res = await fetch(notesURL);
@@ -7,7 +9,7 @@ fetchList = async () => {
         let link = document.createElement('a');
         let div = document.createElement('div');
         let img = document.createElement('img')
-        link.setAttribute('href', `javascript:dl("https://noteslink.github.io/c10/${json[i].path}")`);
+        link.setAttribute('href', `javascript:dl("${notesprefix}${json[i].path}")`);
         div.innerHTML = json[i].name;
         img.setAttribute('src', '/file-icon.png');
         link.appendChild(img);
