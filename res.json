@@ -1,0 +1,22 @@
+{
+    "gh": [
+        "https://api.github.com/repositories/649284030/contents/comp"
+    ],
+    "ls": [
+        "/",
+        "/c10/",
+        "/c10/comp/",
+        "/c10/sst/",
+        "/c10/sst/tb/",
+        "/c10/sst/tp/",
+        "/c10/sst/ws/",
+        "/c10/sst/cw/",
+        "/rt-arrow.png",
+        "/floater.css",
+        "/file-icon.png",
+        "/brs.png",
+        "/c9.png",
+        "/fetch-ls.js",
+        "/search-box.js"
+    ]
+}
