@@ -1,4 +1,4 @@
-const notesPrefix = "https://noteslink.github.io/notes10/"
+const notesprefix = "https://noteslink.github.io/notes10/"
 
 refreshWorker = async () => {
     fetch('/res.json').then((res) => {
