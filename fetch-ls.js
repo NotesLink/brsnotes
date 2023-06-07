@@ -36,14 +36,6 @@ const registerServiceWorker = async () => {
         }
     }
 };
-registerServiceWorker();
-
-function addManifest() {
-    let l = document.createElement('link');
-    l.setAttribute("rel", "manifest");
-    l.setAttribute("href", "/web.manifest.json");
-    document.head.appendChild(l);
-}
 
 dl = (url) => {
     fetch(url).then(res => res.blob()).then(blob => {
@@ -52,4 +44,7 @@ dl = (url) => {
     });
 }
 
-load = () => { fetchList(); addManifest(); }
+load = () => {
+    fetchList();
+    registerServiceWorker();
+}
