@@ -41,7 +41,7 @@ registerServiceWorker();
 function addManifest() {
     let l = document.createElement('link');
     l.setAttribute("rel", "manifest");
-    l.setAttribute("href", "/.webmanifest");
+    l.setAttribute("href", "/web.manifest.json");
     document.head.appendChild(l);
 }
 
