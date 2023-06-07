@@ -1,4 +1,4 @@
-const notesprefix = "https://noteslink.github.io/notes10/"
+const notesprefix = "https://noteslink.github.io/notes10/";
 refreshWorker = async () => {
     fetch('/res.json').then((res) => {
         res.json().then((json) => {
@@ -21,7 +21,7 @@ refreshWorker = async () => {
                                 console.log(`${notesprefix}${k[j].path}`);
                                 cache.delete(`${notesprefix}${k[j].path}`);
                                 cache.add(`${notesprefix}${k[j].path}`).catch((err) => {
-                                    console.log(err)
+                                    console.log(err);
                                 });
                             }
                         });
