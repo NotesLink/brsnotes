@@ -1,15 +1,15 @@
 {
-    "name": "BRS Notes Share",
-    "short_name": "BRSPDF",
-    "start_url": "/",
-    "display": "standalone",
-    "background_color": "#fff",
-    "description": "BRS Global School Notes SharePoint",
-    "icons": [
-      {
-        "src": "brs.png",
-        "sizes": "128x128",
-        "type": "image/png"
-      }
-    ]
-  }
+  "name": "BRS Notes Share",
+  "short_name": "BRSPDF",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "BRS Global School Notes SharePoint",
+  "icons": [
+    {
+      "src": "brs.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    }
+  ]
+}

@@ -1,6 +1,13 @@
 {
     "gh": [
-        "https://api.github.com/repositories/649284030/contents/comp"
+        "https://brsfetchapi.onrender.com/repositories/649284030/contents/comp",
+        "https://brsfetchapi.onrender.com/repositories/649284030/contents/hindi/sparsh2",
+        "https://brsfetchapi.onrender.com/repositories/649284030/contents/hindi/sanchayan2",
+        "https://brsfetchapi.onrender.com/repositories/649284030/contents/hindi/grammar",
+        "https://brsfetchapi.onrender.com/repositories/649284030/contents/sst/cbse-test-papers",
+        "https://brsfetchapi.onrender.com/repositories/649284030/contents/sst/cw",
+        "https://brsfetchapi.onrender.com/repositories/649284030/contents/sst/textbook-questions",
+        "https://brsfetchapi.onrender.com/repositories/649284030/contents/sst/worksheet"
     ],
     "ls": [
         "/",
